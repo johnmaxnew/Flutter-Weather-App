@@ -65,6 +65,7 @@ class _HomePageState extends State<HomePage> {
           SizedBox(height: 20,),
           // More info widget
           moreInfo('24', '2', '1014', '25.0'),
+          // API integration
         ],
       ),
     );
