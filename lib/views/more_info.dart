@@ -8,6 +8,27 @@ Widget moreInfo(String wind, String humidity, String pressure, String feels_like
     child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  "Wind",
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w400
+                  ),
+                ),
+              ],
+            )
+          ],
+        )
+      ],
     ),
   );
 }

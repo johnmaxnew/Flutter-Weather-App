@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:weather_app/views/current_weather.dart';
+import 'package:weather_app/views/more_info.dart';
 
 void main() {
   runApp(MyApp());
@@ -63,6 +64,7 @@ class _HomePageState extends State<HomePage> {
           Divider(),
           SizedBox(height: 20,),
           // More info widget
+          moreInfo('24', '2', '1014', '25.0'),
         ],
       ),
     );
